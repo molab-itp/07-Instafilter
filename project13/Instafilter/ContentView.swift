@@ -24,7 +24,7 @@ struct ContentView: View {
     @State private var showingFilterSheet = false
 
     var body: some View {
-        NavigationView {
+// NavigationView { // Removed to improve preview on iPad
             VStack {
                 ZStack {
                     Rectangle()
@@ -76,7 +76,7 @@ struct ContentView: View {
                 Button("Vignette") { setFilter(CIFilter.vignette()) }
                 Button("Cancel", role: .cancel) { }
             }
-        }
+// }
     }
 
     func loadImage() {
