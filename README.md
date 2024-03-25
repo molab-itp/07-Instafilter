@@ -1,6 +1,10 @@
 # [07-Instafilter](https://github.com/mobilelabclass-itp/07-Instafilter)
 
 - Make a photo manipulation program using Core Image filters
+- uses PhotosPicker and ShareLink iOS 16+
+
+- repo branch ImagePicker:
+    - uses ImagePicker: UIViewControllerRepresentable to access UIKit PHPickerViewController
 
 References
 
@@ -12,4 +16,3 @@ References
 
 - [methods_and_protocols_for_filter_creation - apple dev doc](https://developer.apple.com/documentation/coreimage/methods_and_protocols_for_filter_creation)
 
-- uses ImagePicker: UIViewControllerRepresentable to access UIKit PHPickerViewController
