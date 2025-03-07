@@ -6,7 +6,18 @@
 - repo branch ImagePicker:
     - uses ImagePicker: UIViewControllerRepresentable to access UIKit PHPickerViewController
 
-References
+## Issues
+
+- what is requestReview?
+```
+https://developer.apple.com/documentation/swiftui/environmentvalues/requestreview
+
+import StoreKit
+
+```
+
+
+## References
 
 - [Hacking with iOS: SwiftUI Edition](https://www.hackingwithswift.com/books/ios-swiftui)
     - [Instafilter article](https://www.hackingwithswift.com/books/ios-swiftui/instafilter-introduction)
