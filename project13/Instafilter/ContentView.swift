@@ -108,7 +108,7 @@ struct ContentView: View {
 
         filterCount += 1
 
-        if filterCount >= 20 {
+        if filterCount >= 2 {
             requestReview()
         }
     }
